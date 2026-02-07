@@ -48,7 +48,6 @@ fun GreetingText(
     message: String,
     from: String,
     modifier: Modifier = Modifier) {
-    Row {
         Column(
             verticalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxSize()
@@ -67,7 +66,6 @@ fun GreetingText(
                     .align(alignment = Alignment.End)
             )
         }
-    }
 }
 
 @Preview(showBackground = true)
